@@ -1,0 +1,204 @@
+/*---------------------------------------COMMUN---------------------------------------*/
+
+@font-face {
+    font-family: "geosanslight";
+    src: url("GeosansLight.ttf");
+}
+
+body, html, header {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    overflow-x: hidden;
+    background: #EBEBEB;
+    font-family: "geosanslight";
+}
+
+section {
+    border: 5px solid transparent;
+}
+
+/*En-tête*/
+
+header, body, html {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background: url("image/balle.png") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    display: block;
+    width: 25%;
+    position: fixed;
+    top: 0%;
+    z-index: +1;
+}
+
+/*Repère nav bar*/
+
+.repere {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+    z-index: -1;
+}
+
+/*Font noir progressif*/
+
+.blackfont {
+    width: 100%;
+    height: 100%;
+    background-color: #3B3B3B;
+    opacity: 0;
+    z-index: +1;
+}
+
+/*Menu*/
+
+.menu {
+    position: fixed;
+    height: 10%;
+    top: 0;
+    right: 3%;
+    margin-top: 0;
+    text-align: right;
+    z-index: +1;
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    }
+
+.menu a {
+    display: block;
+    padding: 1.5vw 3vw;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    font-family: "geosanslight";
+    border-top: 3px solid;
+    border-top-color: transparent;
+}
+
+
+.menu a:hover {
+    border-top: 3px solid;
+    border-top-color: white;
+    transition: 0.2s;
+}
+
+/*Pied de page*/
+
+footer {
+    bottom: 0;
+    box-sizing: border-box;
+    background-color: #3B3B3B;
+    width: 100%;
+    height: 5%;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 1vw;
+}
+
+/*-----------------------------------------ACCUEIL-----------------------------------------*/
+
+/*Bio*/
+
+.bio {
+    background: url("image/margaux2.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    border: 0;
+    height: 100%;
+}
+
+.bio_txt {
+    padding: 5% 60%;
+    width: 35%;
+    font-size: 1.5vw;
+    color: white;
+}
+
+.bio_txt p {
+    border-left: 5px solid transparent;
+}
+
+/*-----------------------------------------PARCOURS-----------------------------------------*/
+
+/*Intro de page*/
+
+.intro_page {
+    margin: 0;
+    font-size: 1.8vw;
+    text-align: center;
+    color: #3B3B3B;
+    background-color: #BBBBBB;
+    border-bottom: 2px solid #3B3B3B;
+}
+
+.golf_nom_parties {
+    text-align: center;
+    width: 100%;
+    height: 5%;
+    border: 0;
+    margin: 0;
+    background-color: #BBBBBB;
+}
+
+/*Modèle golf*/
+.golf {
+    color: #3B3B3B;
+    padding-bottom: 2%;
+}
+
+.nom_golf {
+    font-size: 1.4vw;
+    text-align: center;
+    height: 4vw;
+    box-sizing: border-box;
+    margin-top: 3%;
+}
+
+.description_golf {
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.description_golf p {
+    margin: 10%;
+    text-align: center;
+    width: 80%;
+    font-size: 1.5vw;
+}
+
+.golf img {
+    width: 60%;
+    box-sizing: border-box;
+    border: 2px solid #3B3B3B;
+}
+h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
